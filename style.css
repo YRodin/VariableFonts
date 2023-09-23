@@ -46,10 +46,22 @@ footer {
 .logo {
   font-size: 2rem;
   margin-bottom: 16px;
+  color: var(--white, #fff);
+  /* text-align: center; */
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
 
 .legal {
   margin-top: auto;
+  color: var(--gray-700, #9487a1);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .links {
@@ -81,4 +93,42 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.sublogo {
+  color: var(--gray-500, #b8adc2);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.person-name {
+  color: var(--gray-300, #d6cfdd);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.links div h2 {
+  color: var(--gray-700, #9487a1);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.links a {
+  color: var(--gray-100, #f5f2f7);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  text-transform: revert;
 }
